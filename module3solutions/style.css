@@ -1,4 +1,46 @@
-body{
+*{
+	box-sizing: border-box;
+}
+h1{
 	text-align: center;
-	background-color: gray;
+	padding-top: 60px;
+	margin-bottom: 60px;
+	color:brown;
+
+}
+body{
+	font-family: arial,sans-serif;
+	background-color:#DEB887;
+}
+.row  section{
+	border: 1px solid black;
+	width:100px;
+	height:40px;
+	text-align: center;
+	size: 3em;
+	padding-top: 8px;
+	padding-right: 15px;
+	float:right;
+	background-color: pink;
+	position:  absolute;
+	right: 30px;
+	top:0px;
+	color:brown;
+}
+div>div .yes{
+	
+	padding-top:30px;
+	text-align:justify;
+	padding:30px;
+}
+#box2 section{
+
+		padding-right:30px;
+}
+#box3 section{
+	padding-right: 25px;
+}
+body> #footer{
+	text-align: center;
+	text-transform: capitalize;
 }
